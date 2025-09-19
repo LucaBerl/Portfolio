@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+    header h1 {
+        margin-bottom: 0.5rem;
+    }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Secciones */
+
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+/* Estudios */
+
+.estudio {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+    
+
+/* Proyectos */
+
+.proyecto {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.proyecto a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+/* Capacitaciones */
+
+.capacitaciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.capacitacion {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.12);
+    max-width: 600px;
+    text-align: center;
+    flex: 1 1 300px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input, textarea, button {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #0077cc;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+    button:hover {
+        background: #005fa3;
+    }
+
+/* Footer */
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    -ms-text-justify: inherit;
+    text-justify: inherit;
+}
+p {
+    text-align: center;
+    -ms-text-justify: inherit;
+    text-justify: inherit;
+    margin-bottom: 18px; 
+}
+
